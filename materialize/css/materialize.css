@@ -2896,7 +2896,7 @@ ul.staggered-list li {
           align-items: center;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+  background-color: #300138;
 }
 
 table, th, td {
@@ -3406,9 +3406,9 @@ nav ul a span.badge {
 }
 
 .row {
+ 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
 }
 
 .row:after {
@@ -3418,7 +3418,7 @@ nav ul a span.badge {
 }
 
 .row .col {
-  float: left;
+  float: right;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 0.75rem;
@@ -3465,7 +3465,7 @@ nav ul a span.badge {
 }
 
 .row .col.s6 {
-  width: 50%;
+  
   margin-left: auto;
   left: auto;
   right: auto;
@@ -4208,7 +4208,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #300138;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4271,6 +4271,8 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
+  padding-top: 5.5px;
+  border:2px solid white;
 }
 
 nav .brand-logo.center {
@@ -4362,12 +4364,11 @@ nav ul.left {
 }
 
 nav form {
-  height: 100%;
+  height: 10%;
 }
 
 nav .input-field {
   margin: 0;
-  height: 100%;
 }
 
 nav .input-field input {
@@ -4378,7 +4379,7 @@ nav .input-field input {
 }
 
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
-  border: none;
+  
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -6003,7 +6004,7 @@ textarea.materialize-textarea {
   height: 3rem;
   width: 100%;
   font-size: 1rem;
-  margin: 0 0 20px 0;
+  margin: 10 0 0px 0;
   padding: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -8309,10 +8310,19 @@ input[type=range]:focus::-ms-fill-upper {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8365,10 +8375,19 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
@@ -9386,4 +9405,75 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-width: 4;
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
+}
+
+.nav-btn{
+  margin-top:19px;
+}
+
+.reg-input{
+  color: #404040;
+  width: 100%;
+
+}
+.second-big-wrapper{
+  margin-top: 30px;
+  width: 100%;
+}
+.carousel-div{
+  margin-left: 10px;
+  width: 50%;
+  float: left;
+}
+.sign-up-wrapper{
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 3px 2px;
+  background-color: #488982;
+  width: 45%;
+  float: right;
+  text-align: center;
+  color: #8C9796;
+  font: 28px solid gray;
+  font-family: sans-serif;
+  height: 400px;
+  margin-right: 10px;
+}
+
+.carousel-img{
+  height: 400px;
+}
+.reg-input-2{
+  width: 50%;
+  color: #404040;
+}
+
+
+
+  .container {
+  
+    display: flex;
+    min-height: 80px;
+    flex-direction: column;
+  }
+
+  .page-footer {
+    text-align: center;
+     background-color: #45334F;
+    border - top: 1px, solid, black;
+    margin-top: 35%;
+    
+    flex: 1 0 auto;
+  }
+
+
+.home-nav{
+  float: right;
+}
+
+.dark-font{
+  color: #404040;
+}
+.pad-nav-wrapper{
+  padding-bottom: 11px;
 }
