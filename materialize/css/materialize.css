@@ -9414,10 +9414,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .reg-input{
   color: #404040;
   width: 100%;
-  margin-top: 27px;
+  height: 40px;
+  margin-top: 34px;
 }
 .second-big-wrapper{
-  margin-top: 30px;
+  margin-top: 20px;
   width: 100%;
 }
 .carousel-div{
@@ -9428,7 +9429,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 .sign-up-wrapper{
   border-radius: 5px;
-  padding: 5px;
+  padding-top: 5px;
   box-shadow: 3px 2px;
   background-color: #488982;
   width: 45%;
@@ -9439,13 +9440,30 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-family: sans-serif;
   height: 400px;
   margin-right: 10px;
+  margin-top: 20px;
+}
+.reg-input3{
+  height: 100%;
+}
+.reg-input4{
+  color: #404040;
+  width: 100%;
+  height: 12px;
+  
+
+}
+.button-div{
+  margin-top: 20px;
 }
 
 .carousel-img{
   height: 400px;
 }
 .reg-input-2{
+  margin-top: 37px;
+  padding-top: 5px;
   width: 50%;
+  height: 10px;
   color: #404040;
 }
 
@@ -9462,7 +9480,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     text-align: center;
      background-color: #45334F;
     border - top: 1px, solid, black;
-    margin-top: 35%;
+    margin-top: 37%;
     
     flex: 1 0 auto;
   }
