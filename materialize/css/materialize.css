@@ -9414,15 +9414,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .reg-input{
   color: #404040;
   width: 100%;
-
+  margin-top: 27px;
 }
 .second-big-wrapper{
   margin-top: 30px;
   width: 100%;
 }
 .carousel-div{
+  display: inline;
   margin-left: 10px;
-  width: 50%;
+  width: 52%;
   float: left;
 }
 .sign-up-wrapper{
@@ -9468,6 +9469,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 
 .home-nav{
+  padding-top: 7px;
+  margin-left: auto;
+  margin-right: 120px;
+
   float: right;
 }
 
@@ -9476,4 +9481,71 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 .pad-nav-wrapper{
   padding-bottom: 11px;
+}
+
+.user-profile{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.slider-div{
+  display: inline;
+}
+
+.sign-up-btn{
+  background-color: :black;
+}
+
+.sign-up-form{
+  max-height: 200px;
+}
+
+
+.col.s12.m7{
+  margin: 20px;
+  margin-right: 10px;
+  width: 31%;
+ 
+  display: inline;
+  float: left;
+}
+
+.card-div{
+  width: 100%;
+  float: left;
+  display: inline;
+  height: 550px;
+}
+
+
+.main-card-div{
+  width: 100%;
+  height: 800px;
+}
+
+
+
+.main-modal-div{
+  height: 600px;
+}
+
+.main-del-modal-div{
+  height: 200px;
+ 
+}
+.del-modal-div{
+
+}
+
+.modal-footer-div{
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 20px;
+
+}
+
+.red-modal-btn{
+  position: absolute;
+  top: 85px;
+  left: 95%;
 }

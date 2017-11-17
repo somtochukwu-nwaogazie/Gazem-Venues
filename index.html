@@ -44,37 +44,62 @@
 
   </nav>
 
-<div class="second-big-wrapper">
-    <div class="carousel carousel-slider center carousel-div" data-indicators="true">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
-    <div class="carousel-item white-text carousel-img" href="#one!">
-      <img class="carousel-img" src="images/Gazems-Venue-2.jpg"/>
-    </div>
-    <div class="carousel-item  white-text carousel-img" href="#two!">
-      <img class="carousel-img" src="images/Gazems-Venue-3.jpg">
-    </div>
-    <div class="carousel-item  white-text carousel-img" href="#three!">
-      <img  class="carousel-img" src="images/Gazems-Venue-5.jpg">
-    </div>
-    <div class="carousel-item white-text carousel-img" href="#four!">
-      <img class="carousel-img" src="images/Gazems-Venue-6.jpg">
-    </div>
-    <div class="carousel-item white-text carousel-img" href="#five!">
-      <img class="carousel-img" src="images/Gazems-Venue-9.jpg">
-    </div>
-    <div class="carousel-item white-text carousel-img" href="#six!">
-      <img class="carousel-img" src="images/Gazems-Venue-10.jpg">
-    </div>
+<div class="second-big-wrapper carousel-div">
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/Gazems-Venue-2.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/Gazems-Venue-3.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/Gazems-Venue-5.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/Gazems-Venue-6.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+            <li>
+        <img src="images/Gazems-Venue-9.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+            <li>
+        <img src="images/Gazems-Venue-10.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
   </div>
 
-<div class= "sign-up-wrapper waves-effect waves-light">
+</div>
+
+<div class= "sign-up-wrapper waves-effect waves-light reg-input">
 <div class="row waves-effect waves-light">
   <div class = "col s6 reg-input">
     <b>SIGN UP</b>
   </div>
-    <form class="col s12">
+    <form class="col s12 sign-up-form">
       <div class="row">
         <div class="input-field col s6 reg-input-2">
           <input id="last_name" type="text" class="validate">
@@ -103,11 +128,15 @@
           <label for="password">Confirm Password</label>
         </div>
       </div>
+      
+      <div class="input-field col s6">
+        <button class="waves-effect waves-light btn nav-btn sign-up-btn">Log In</button> 
+      </div>
+      
     </form>
   </div>
 </div>
 
-</div>
         <footer class="page-footer">
           <div class="container">
             <div class="row">
@@ -138,7 +167,9 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
        <script>
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
+          $(document).ready(function(){
+            $('.slider').slider();
+          });
       </script>
 
 
