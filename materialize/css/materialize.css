@@ -1543,6 +1543,10 @@
   background-color: #ffc107 !important;
 }
 
+.gray{
+  background-color: gray !important;
+}
+
 .amber-text {
   color: #ffc107 !important;
 }
@@ -6001,7 +6005,7 @@ textarea.materialize-textarea {
   border-bottom: 1px solid #9e9e9e;
   border-radius: 0;
   outline: none;
-  height: 3rem;
+  height: 2rem;
   width: 100%;
   font-size: 1rem;
   margin: 10 0 0px 0;
@@ -6480,7 +6484,7 @@ textarea.materialize-textarea {
   padding: .8rem 0 1.6rem 0;
   /* prevents text jump on Enter keypress */
   resize: none;
-  min-height: 3rem;
+  min-height: 2rem;
 }
 
 textarea.materialize-textarea.validate + label {
@@ -9418,7 +9422,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin-top: 34px;
 }
 .second-big-wrapper{
-  margin-top: 20px;
+  margin-top: 30px;
   width: 100%;
 }
 .carousel-div{
@@ -9547,6 +9551,28 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   height: 600px;
 }
 
+.main-modal-div-1{
+  height: 1500px;
+}
+
+.small-carousel-div{
+height: 100%;
+
+}
+.slider3{
+  margin-top: 200px;
+}
+
+.carousel-pic{
+ 
+}
+
+.main-modal-div-2{
+  margin: 0px;
+  padding: 0px;
+  height: 300px;
+}
+
 .main-del-modal-div{
   height: 200px;
  
@@ -9558,7 +9584,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .modal-footer-div{
   margin-top: 0px;
   padding-top: 0px;
-  height: 20px;
+  height: 5px;
 
 }
 
@@ -9566,4 +9592,61 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   position: absolute;
   top: 85px;
   left: 95%;
+}
+
+.modal-carousel-div{
+  }
+
+.third-big-wrapper{
+  width: 100%;
+  height: 100%;
+  margin-top: 51px;
+}
+
+.event-modal-card-div{
+  height: 40%;
+  width: 800px;
+  display: inline;
+  margin-top: 30px;
+  padding-top: 30px;
+
+}
+
+.center-card-actn{
+  padding: 5px;
+  
+}
+
+.event-modal-card{
+  width: 31%;
+  height: 500px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.card-image2{
+  width: 100%;
+  height: 230px;
+  margin-left: 7px;
+}
+.modal-card-content2{
+  width: 100%;
+  height: 150px;
+}
+.modal-card-content1{
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  padding-bottom:20px;
+
+}
+
+.row-col-s12-m88{
+  width: 100%;
+}
+.card-title{
+  font-size: 8px;
+}
+
+.card-title2{
+  font-size: 20px;
 }
