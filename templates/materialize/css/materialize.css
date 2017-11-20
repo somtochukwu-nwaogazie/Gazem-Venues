@@ -6009,7 +6009,7 @@ textarea.materialize-textarea {
   width: 100%;
   font-size: 1rem;
   margin: 10 0 0px 0;
-  padding: 0;
+  padding: 7;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-box-sizing: content-box;
@@ -9517,7 +9517,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .sign-up-btn{
   background-color: :black;
 }
-
+.my-nav-input-field{
+  padding-top: 20px;
+}
 .sign-up-form{
   max-height: 200px;
 }
