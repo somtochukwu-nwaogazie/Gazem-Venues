@@ -29,7 +29,8 @@
             "ClassDeclaration": true
         }
     }]
-  }
+  },
+  "parser": "babel-eslint"
 }
 
 
