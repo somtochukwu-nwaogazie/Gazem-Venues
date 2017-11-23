@@ -9,12 +9,6 @@ class Center {
   * @return {obj}    JSON response
   */
   static addCenter(req, res) {
-    const {
-      VenueName,
-      Capacity,
-      Location,
-      Cost
-    } = req.body;
     centerData.Center.push(req.body);
     res.send('Center saved successfully');
   }
