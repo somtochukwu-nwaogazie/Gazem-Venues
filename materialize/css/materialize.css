@@ -2883,8 +2883,9 @@ ul.staggered-list li {
 
 .page-footer {
   padding-top: 20px;
-  color: #fff;
-  background-color: #ee6e73;
+  text-align: center;
+  color: black;
+  background-color: #FA8072;
 }
 
 .page-footer .footer-copyright {
@@ -2899,8 +2900,9 @@ ul.staggered-list li {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 0px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: #300138;
+  color: black;
+  text-align: center;
+  background-color: #FA8072;
 }
 
 table, th, td {
@@ -4211,8 +4213,8 @@ nav ul a span.badge {
 }
 
 nav {
-  color: #fff;
-  background-color: #300138;
+  color: black;
+  background-color: #FA8072;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4225,6 +4227,7 @@ nav.nav-extended {
 nav.nav-extended .nav-wrapper {
   min-height: 56px;
   height: auto;
+  padding-bottom: 0px;
 }
 
 nav.nav-extended .nav-content {
@@ -4233,7 +4236,7 @@ nav.nav-extended .nav-content {
 }
 
 nav a {
-  color: #fff;
+  color: black;
 }
 
 nav i,
@@ -4275,8 +4278,13 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
-  padding-top: 5.5px;
-  border:2px solid white;
+  padding-top: 0px;
+ 
+}
+
+.logo-img{
+  margin: 0px;
+  padding: 0px;
 }
 
 nav .brand-logo.center {
@@ -5442,6 +5450,7 @@ button.btn-floating {
 .dropdown-content {
   background-color: #fff;
   margin: 0;
+  margin-top: 50px;
   display: none;
   min-width: 100px;
   max-height: 650px;
@@ -5478,9 +5487,10 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: black;
   display: block;
-  line-height: 22px;
+  line-height: 2px;
+  margin-top: 20px;
   padding: 14px 16px;
 }
 
@@ -6008,6 +6018,7 @@ textarea.materialize-textarea {
   height: 2rem;
   width: 100%;
   font-size: 1rem;
+  color: black;
   margin: 12 0 0px 0;
   padding: 5px;
   -webkit-box-shadow: none;
@@ -9413,6 +9424,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .nav-btn{
   margin-top:19px;
+  background-color: #FA8072;
+  color: black;
 }
 
 .reg-input{
@@ -9428,15 +9441,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .carousel-div{
   display: inline;
   margin-left: 10px;
-  width: 52%;
+  width: 65%;
   float: left;
 }
 .sign-up-wrapper{
   border-radius: 5px;
   padding-top: 5px;
   box-shadow: 3px 2px;
-  background-color: #488982;
-  width: 45%;
+  background-color: #B0B0B0;
+  width: 32%;
   float: right;
   text-align: center;
   color: #8C9796;
@@ -9490,7 +9503,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
   .page-footer {
     text-align: center;
-     background-color: #45334F;
+     background-color: #FFA07A;
+     color: black;
+     text-align: left;
     border - top: 1px, solid, black;
     margin-top: 37%;
     
@@ -9523,7 +9538,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .sign-up-btn{
-  background-color: :black;
+  background-color: FA8072;
+  color: black;
 }
 .my-nav-input-field{
   padding-top: 20px;
@@ -9660,3 +9676,26 @@ height: 100%;
 .card-title2{
   font-size: 20px;
 }
+.black-text{
+  color: black;
+}
+.btn:hover{
+background-color: white;
+color: black;
+}
+.nav a{
+  color: black;
+}
+.biggest-wrapper{
+  background-color: #B0B0B0 
+}
+ .text-align-left{
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    color: black;
+  }
+  .text-align-center{
+    text-align: center;
+    color: black
+  }
