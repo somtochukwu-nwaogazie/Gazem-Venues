@@ -38,12 +38,13 @@ class Events {
   static editEvent(req, res) {
     // console.log(req.params.eventId);
     for (let event = 0; event < data.Event.length; event += 1) {
-      if (data.Event[event].id === req.params.eventId) {
+      if (data.Event[event].id === +req.params.eventId) {
         req.body.id = req.params.eventId;
         data.Event[event] = req.body;
+        return res.status(200).send({ message: 'Event edited sucessfully', data: req.body });
       }
-      res.send({ message: 'Event edited sucessfully', data: req.body });
     }
+    return res.status(404).send({ message: 'Event not found'});
   }
 }
 
